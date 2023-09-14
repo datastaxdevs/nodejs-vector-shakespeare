@@ -6,7 +6,7 @@ import json from 'json';
 dotenv.config();
 
 const openai = new OpenAI({
-    apiKey: process.env.OPENAPI_API_KEY
+    apiKey: process.env.OPENAI_API_KEY
 })
 
 import cassandra from '../nodejs-driver/index.js';
